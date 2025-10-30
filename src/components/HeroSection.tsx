@@ -20,9 +20,10 @@ const HeroSection: React.FC = () => {
         <div className="mb-8 flex justify-center">
           <div className="relative">
             <img
-              src="/hero-avatar.jpg"
-              alt="Moksh Dudeja"
-              className="w-40 h-40 rounded-full object-cover border-4 border-white shadow-card"
+              src="/moksh_profile.jpg"
+              alt="Moksh Dudeja - AI/ML & Web Development Specialist"
+              className="w-40 h-40 rounded-full object-cover border-4 border-white shadow-card transition-transform duration-300 hover:scale-105"
+              loading="eager"
             />
           </div>
         </div>
